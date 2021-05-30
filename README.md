@@ -1,5 +1,5 @@
 # PythonExam
-## Fruite Finder
+## Fruit Finder
 This program will allow a user to upload a picture of a fruit which the machine will reconize and return the fruit as word. It will then serch the Rema 1000 shop for the fruit and get cost and other valuble information.
 
 ## Used technologies
@@ -10,7 +10,7 @@ This program will allow a user to upload a picture of a fruit which the machine 
 - keras
 - os 
 
-## Note!
+### Note!
 When downloading the program you have to clone it into this https://github.com/Hartmannsolution/docker_notebooks/tree/master/notebooks at that location. 
 Then run the program using the command "docker-compose up" in git bash at the root location of the notebook. In VSC you have to attach it to a remote container, and that has to be notebookserver. 
 
@@ -28,10 +28,9 @@ Second run the Train_Machine.ipynb, and please notice the result isn't very good
 Run the file Webscraping.ipynb.
 (This dosen't work, we didn't finish)
 
-Project name
-Short description
-List of used technologies
-Installation guide (if any libraries need to be installed)
-User guide (how to run the program)
-Status (What has been done (and if anything: what was not done))
-List of Challenges you have set up for your self (The things in your project you want to highlight)
+## Status
+We created the upload picture funktion, the machine lerning part and a little part of the machine automation with selenium. 
+We didn't get to connect every funktionality. The machine learning part is not accurate and the selenium part is not working. The last mentioned is because Rema 1000 site was more complex with naming their attributes, so we could not search for only an apple. Then we would get everything apple related. Also their form would not submit my search word. 
+
+## List of challenges
+I want to highlight the machine learning part, a little of the upload part and brush over the selenium part. 
